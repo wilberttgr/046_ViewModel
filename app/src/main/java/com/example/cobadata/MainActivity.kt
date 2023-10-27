@@ -100,6 +100,9 @@ fun TampilanForm(cobaViewModel: CobaViewModel = viewModel()){
         )
         Text(text = "Register", fontSize = 20.sp)
     }
+    Text(modifier = Modifier.padding(start = 68.dp),
+        fontSize = 20.sp,
+        text = "Create Your Account")
 
 
     OutlinedTextField(
